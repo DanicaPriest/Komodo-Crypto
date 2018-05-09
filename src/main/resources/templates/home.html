@@ -10,9 +10,11 @@
     <link rel="stylesheet" href="/komodo-crypto/src/main/resources/static/css/home.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 <body>
 
-
+<div class="polygon" id="polygon1"></div>
+<div class="polygon" id="polygon2">.</div>
 <div class="container" id="header">
     <div class="row"> <div class="col-sm-9">
         <h1 class="title" >KOMODO CRYPTO</h1></div> <div class="col-sm-3 login"> <form method="POST" class="form-signin" > <!-- th:action="@{/end point here}">-->
@@ -44,7 +46,8 @@
             <button class="navbar-right registration" type="Submit">Don't have an Account? Register Here</button>
     </div>
 </nav>
-<div class="container main">
+
+<div class="container" id="main">
     <div class="row"> <div class="col-sm-1"></div>
         <div class=" col-sm-10 table-responsive">
             <table class="table">
@@ -85,15 +88,18 @@
                 </tbody>
             </table>
         </div></div><div class="col-sm-1"></div></div>
-<div class="footer">
-    <ul>
-        <li>Terms of use</li>
-        <li>About Us</li>
-        <li>Services</li>
-        <li>Developer Tools</li>
-        <li>Contact Us</li>
+<footer>
+    <div id="footer">
+        <ul>
+            <li>Terms of use</li>
+            <li>About Us</li>
+            <li>Services</li>
+            <li>Developer Tools</li>
+            <li>Contact Us</li>
 
-    </ul>
+        </ul>
+    </div>
+</footer>
 </div>
 </body>
 </html>
